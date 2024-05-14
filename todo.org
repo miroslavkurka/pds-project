@@ -1,0 +1,9 @@
+# TODO 
+
+standardne by som cakal ze urobite:
+1. implementaciu na CPU ktora nemusi byt rychla ale zarucene funguje (v pripade a. ale staci pouzit existujucu a len ukazat ze vstup -> cpu hashing -> hash -> gpu brute-force -> vystup a vstup == vystup, v pripade b. bude zbytocne robit to iste dvakrat, tak "kontrola" spociva v tom ze kolizia existuje ale nenajdete ju okamzite na prvych x vstupoch)
+2. vlastna implementacia hash na GPU
+3. pouzitie GPU hash funkcie na jednu z 2 moznosti hore a/b
+4. otestovat na realnych vstupoch: pre a. ladit dlzku vstupu, pre b. velkost hash (teda spat k 2/3)
+5. ak zvysi cas pokusit sa zrychlit/optimalizovat vypocet na GPU (ak sa a. zda byt velmi lahka, stravite tu najviac casu) prip mechanizmus ukladania/hladania kolizie v pripade b.
+6. spisat report (ktory odovzdate k zdrojakom) kde popisete svoju aktivitu pocas projektu: co ste skusali, motivaciu a ako to dopadlo ... (lebo vela veci sa nedostane do finalneho produktu, no pre potreby vzdelavania su taktiez dolezite)

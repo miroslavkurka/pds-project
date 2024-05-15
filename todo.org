@@ -1,4 +1,5 @@
-**TODO 
+*TODO*
+------------------
  
 1. implementaciu na CPU ktora nemusi byt rychla ale zarucene funguje (v pripade a. ale staci pouzit existujucu a len ukazat ze vstup -> cpu hashing -> hash -> gpu brute-force -> vystup a vstup == vystup, v pripade b. bude zbytocne robit to iste dvakrat, tak "kontrola" spociva v tom ze kolizia existuje ale nenajdete ju okamzite na prvych x vstupoch)
 2. vlastna implementacia hash na GPU
